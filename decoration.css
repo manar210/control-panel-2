@@ -1,0 +1,255 @@
+.D_right{
+
+
+    border-radius: 70%;
+    border-color: #011313d7;
+    position:absolute; right:10px; bottom: 220px;
+    padding: 10px 15px;
+    background-color: rgb(17, 82, 100);
+    height: 73px;
+    width: 73px;
+    display: inline-block;
+    cursor: pointer;
+    transition-delay: 1ms;
+    
+}
+
+.D_left{
+
+
+    border-radius: 70%;
+    border-color: #011313d7;
+    position:absolute; right:120px; bottom: 200px;
+    padding: 10px 15px;
+    background-color: rgb(17, 82, 100);
+    height: 73px;
+    width: 73px;
+    display: inline-block;
+    cursor: pointer;
+    transition-delay: 1ms;
+    
+}
+
+.D_forward{
+
+
+    border-radius: 70%;
+    border-color: #011313d7;
+    position:absolute; right:200px; bottom: 120px;
+    padding: 10px 15px;
+    background-color: rgb(17, 82, 100);
+    height: 73px;
+    width: 73px;
+    display: inline-block;
+    cursor: pointer;
+    transition-delay: 1ms;
+    
+}
+.D_backward{
+
+
+    border-radius: 70%;
+    border-color: #011313d7;
+    position:absolute; right:210px; bottom: 10px;
+    padding: 10px 15px;
+    background-color: rgb(17, 82, 100);
+    height: 73px;
+    width: 73px;
+    display: inline-block;
+    cursor: pointer;
+    transition-delay: 1ms;
+    
+}
+
+.D_stop{
+
+
+    border-radius: 70%;
+    border-color: #011313d7;
+    position:absolute; right:-60px; bottom: -60px;
+    padding: 20px 15px;
+    background-color: rgb(17, 82, 100);
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    cursor: pointer;
+    transition-delay: 1ms;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.save{
+
+
+    position:absolute; left:70px;  
+    background-color: rgb(17, 82, 100);
+    font-weight: bold;
+
+}
+
+.run{
+
+
+    position:absolute; left:130px;  
+    background-color: rgb(17, 82, 100);
+    font-weight: bold;
+
+}
+
+body{
+
+background: black;
+
+background-image: url('w4.jpg');
+background-size: 60% 100%;
+background-attachment: fixed;
+background-repeat: no-repeat;
+
+}
+.col{
+color: lightseagreen;
+
+
+}
+
+.D_right:hover{
+
+
+    border-radius: 70%;
+    border-color: #011313d7;
+    position:absolute; right:10px; bottom: 220px;
+    padding: 10px 15px;
+    background-color: rgb(109, 134, 141);
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    cursor: pointer;
+    transition-delay: 1ms;
+    
+}
+
+.D_left:hover{
+
+
+    border-radius: 70%;
+    border-color: #011313d7;
+    position:absolute;right:120px; bottom: 200px;
+    padding: 10px 15px;
+    background-color: rgb(109, 134, 141);
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    cursor: pointer;
+    transition-delay: 1ms;
+
+
+    
+    
+}
+.D_forward:hover{
+
+
+    border-radius: 70%;
+    border-color: #011313d7;
+    position:absolute;right:200px; bottom: 120px;
+    padding: 10px 15px;
+    background-color: rgb(109, 134, 141);
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    cursor: pointer;
+    transition-delay: 1ms;
+
+
+    
+    
+}
+.D_backward:hover{
+
+
+    border-radius: 70%;
+    border-color: #011313d7;
+    position:absolute;right:210px; bottom: 10px;
+    padding: 10px 15px;
+    background-color: rgb(109, 134, 141);
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    cursor: pointer;
+    transition-delay: 1ms;
+
+
+    
+    
+}
+
+.D_stop:hover{
+
+
+    border-radius: 70%;
+    border-color: #011313d7;
+    position:absolute;right:-60px; bottom: -60px;
+    padding: 10px 15px;
+    background-color: rgb(124, 201, 36);
+    height: 240px;
+    width: 240px;
+    display: inline-block;
+    cursor: pointer;
+    transition-delay: 1ms;
+
+
+    
+    
+}
+
+.save:hover{
+
+    position:absolute; left:70px;  
+    background-color: rgb(109, 134, 141);
+    
+
+
+
+}
+
+
+
+
+.run:hover{
+
+
+    position:absolute; left:130px;  
+    background-color: rgb(109, 134, 141);
+    font-weight: bold;
+
+}
+
+.text{
+
+    
+
+    color: lime;
+    text-align: center;
+    margin: 200px;
+    line-height: 0px;
+}
+
+p{
+
+    font-size: 20px;
+    animation: shadow 5s ease-in-out infinite
+    
+}
+@keyframes shadow{
+
+    0%{text-shadow: 2px 2px 3px #f50;}
+    50%{text-shadow: -2px 2px 3px #f50;}
+    100%{text-shadow: 2px 2px 3px #f50;}
+
+
+
+}
+    
+
